@@ -1,0 +1,20 @@
+#version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_ENV=production
+    restart: unless-stopped
+
+  # 如果需要添加数据库服务，可以取消下面的注释
+  # db:
+  #   image: sqlite3
+  #   volumes:
+  #     - ./data:/data 

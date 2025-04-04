@@ -1,0 +1,63 @@
+{
+    "results" : [ {
+      "monitoredSite" : {
+        "name" : "Hunan Grand-Pro Robot Tech Co., Ltd.",
+        "localName" : "湖南格兰博智能科技有限责任公司(91431000051671947H)",
+        "address" : {
+          "street" : "Intersection of Shihu Ave and Linjing 2nd Rd, Bailutang Suxian District,",
+          "zip" : "423000",
+          "city" : "Chenzhou",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Hunan Grand-Pro Robot Tech Co.,Ltd.",
+        "managedByBusinessPartnerAmforiId" : "156-004887-000",
+        "siteAmforiId" : "156-004887-002",
+        "externalReference" : "BSCI_dbid_387782"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1745280000000,
+      "beingReplanned" : false,
+      "uuid" : "2a1b4d6e-5563-4b4d-9519-3cb71d2b68f8",
+      "timeWindowFrom" : 1742860800000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "24-0242175-2",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FOLLOW_UP_MONITORING",
+        "en_GB" : "Follow-up Monitoring",
+        "tr_TR" : "Takip Denetimi",
+        "zh_CN" : "跟进监测"
+      },
+      "requestorLegalName" : "Severin Elektrogeräte GmbH",
+      "requestDate" : 1741673918541,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741853812790
+      },
+      "esLastIndexedTimestamp" : 1743201554052
+    } ],
+    "start" : 0,
+    "totalItems" : 1
+  }

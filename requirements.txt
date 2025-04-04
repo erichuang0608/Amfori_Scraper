@@ -1,0 +1,9 @@
+flask==2.0.1
+flask-socketio==5.1.1
+selenium==4.16.0
+pandas==2.1.4
+requests==2.31.0
+python-dotenv==1.0.0
+webdriver-manager==3.5.2
+openpyxl==3.1.2
+xlsxwriter 

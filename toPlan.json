@@ -1,0 +1,1416 @@
+{
+    "results" : [ {
+      "monitoredSite" : {
+        "name" : "Dragon State Limited",
+        "localName" : "Dragon State Limited",
+        "address" : {
+          "street" : "No. 3, Truck Road, Pyin-Ma-Pin Industrial Estate, Mingalardon Township",
+          "zip" : "11021",
+          "city" : "Yangon",
+          "country" : {
+            "key" : "Country.MM",
+            "en_GB" : "Myanmar",
+            "tr_TR" : "Myanmar",
+            "zh_CN" : "缅甸"
+          }
+        },
+        "monitoredPartyLegalName" : "Dragon State Limited",
+        "managedByBusinessPartnerAmforiId" : "104-000421-000",
+        "siteAmforiId" : "104-000421-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1743638400000,
+      "beingReplanned" : false,
+      "uuid" : "413c203e-231d-451b-806d-ad2fa642ef1d",
+      "timeWindowFrom" : 1741219200000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0311955",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "SMB TEX LIMITED",
+      "requestDate" : 1740051368185,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1740865949587
+      },
+      "esLastIndexedTimestamp" : 1743201507528
+    }, {
+      "monitoredSite" : {
+        "name" : "Global mode and accessories private limited",
+        "address" : {
+          "street" : "B-2 , Sector -65 ",
+          "zip" : "201301",
+          "city" : "Noida",
+          "country" : {
+            "key" : "Country.IN",
+            "en_GB" : "India",
+            "tr_TR" : "Hindistan",
+            "zh_CN" : "印度"
+          }
+        },
+        "monitoredPartyLegalName" : "Global mode and accessories private limited",
+        "managedByBusinessPartnerAmforiId" : "356-002099-000",
+        "siteAmforiId" : "356-002099-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1743638400000,
+      "beingReplanned" : false,
+      "uuid" : "2731c101-cd18-4076-8c0d-62cbd4a290d1",
+      "timeWindowFrom" : 1741219200000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0311801",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "Techno Design GmbH",
+      "requestDate" : 1740032279937,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741359604645
+      },
+      "esLastIndexedTimestamp" : 1743201504622
+    }, {
+      "monitoredSite" : {
+        "name" : "Unity Home Collections",
+        "address" : {
+          "street" : "03 Hometex Export Zone Near Ansari Chowk",
+          "zip" : "60650",
+          "city" : "Multan",
+          "country" : {
+            "key" : "Country.PK",
+            "en_GB" : "Pakistan",
+            "tr_TR" : "Pakistan",
+            "zh_CN" : "巴基斯坦"
+          }
+        },
+        "monitoredPartyLegalName" : "Unity  Home Collections",
+        "managedByBusinessPartnerAmforiId" : "586-000603-000",
+        "siteAmforiId" : "586-000603-002",
+        "externalReference" : "BSCI_dbid_344163"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1743984000000,
+      "beingReplanned" : false,
+      "uuid" : "91a63904-b601-422a-a484-f60a5982140e",
+      "timeWindowFrom" : 1741564800000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0312582",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "Karlowsky Fashion GmbH",
+      "requestDate" : 1740402091885,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741705208181
+      },
+      "esLastIndexedTimestamp" : 1743201515582
+    }, {
+      "monitoredSite" : {
+        "name" : "KALPANA CRAFT",
+        "localName" : "KALPANA CRAFT",
+        "address" : {
+          "street" : "LALITPUR-18, SANO KHOKONA, Lalitpur",
+          "city" : "Lalitpur",
+          "country" : {
+            "key" : "Country.NP",
+            "en_GB" : "Nepal",
+            "tr_TR" : "Nepal",
+            "zh_CN" : "尼泊尔"
+          }
+        },
+        "monitoredPartyLegalName" : "KALPANA CRAFT",
+        "managedByBusinessPartnerAmforiId" : "524-000004-000",
+        "siteAmforiId" : "524-000004-002",
+        "externalReference" : "BSCI_dbid_373310"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744070400000,
+      "beingReplanned" : false,
+      "uuid" : "bacdaa27-ea74-45bc-a46d-fd6a74a39bce",
+      "timeWindowFrom" : 1741651200000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0312849",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "Canadian Tire Corporation Limited",
+      "requestDate" : 1740499079053,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741791605992
+      },
+      "esLastIndexedTimestamp" : 1743201519915
+    }, {
+      "monitoredSite" : {
+        "name" : "Artistic Garden Products (Hui Zhou) Co.,Ltd. HuiYang Branch",
+        "localName" : "达峰园艺（惠州）有限公司惠阳分公司(统一社会信用代码:91441303398048468T)",
+        "address" : {
+          "street" : "Building 2, (Hui Zhou Xin Shi Da Industrial Co., Ltd.), Changlong Village, Zhenlong Town, Huiyang District,",
+          "city" : "Huizhou",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Artistic Garden Products (Hui Zhou) Co.,Ltd. HuiYang Branch",
+        "managedByBusinessPartnerAmforiId" : "156-012225-000",
+        "siteAmforiId" : "156-012225-002",
+        "externalReference" : "BSCI_dbid_381518"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744070400000,
+      "beingReplanned" : false,
+      "uuid" : "dc693e50-40d6-48ba-a01f-f096a7205f2a",
+      "timeWindowFrom" : 1741651200000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0312061",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "Sambro International Ltd",
+      "requestDate" : 1740112552432,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741791605016
+      },
+      "esLastIndexedTimestamp" : 1743201508765
+    }, {
+      "monitoredSite" : {
+        "name" : "Yiwu Jianghao Plastic Technology Co.,Ltd.",
+        "localName" : "义乌江浩塑胶科技有限公司(91330782583570661B)",
+        "address" : {
+          "street" : "Address 1: No. 08-14, No. 18-24, No. 2-1, Building 12, No.300, Sitong East Road, Shangxi Town; \nAddress 2：6F, Building 6, No.103, Chaoyong Road, Shangxi Town",
+          "city" : "Yiwu",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Yiwu Jianghao Plastic Technology Co.,Ltd.",
+        "managedByBusinessPartnerAmforiId" : "156-051159-000",
+        "siteAmforiId" : "156-051159-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744156800000,
+      "beingReplanned" : false,
+      "uuid" : "e8f6e3b7-ab1f-4b37-b584-3ea657680125",
+      "timeWindowFrom" : 1741737600000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0313040",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "Avec BV",
+      "requestDate" : 1740560566035,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741878005142
+      },
+      "esLastIndexedTimestamp" : 1743201521210
+    }, {
+      "monitoredSite" : {
+        "name" : "TAIZHOU JINCHEN SHOE CO.,LTD.",
+        "localName" : "台州锦晨鞋业有限公司",
+        "address" : {
+          "street" : "No.118,Zemu Road,Zeguo,Wenling",
+          "city" : "Taizhou",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "TAIZHOU JINCHEN SHOE CO.,LTD.",
+        "managedByBusinessPartnerAmforiId" : "156-041128-000",
+        "siteAmforiId" : "156-041128-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744243200000,
+      "beingReplanned" : false,
+      "uuid" : "c90c5fc9-02c6-4cde-996e-7cad367b06a9",
+      "timeWindowFrom" : 1741824000000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0313307",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "MERKAL CALZADOS, SLU",
+      "requestDate" : 1740646061544,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741964402009
+      },
+      "esLastIndexedTimestamp" : 1743201525396
+    }, {
+      "monitoredSite" : {
+        "name" : "EMINENT LUGGAGE CORPORATION",
+        "localName" : "萬國通路股份有限公司",
+        "address" : {
+          "street" : "No. 1, Sec. 2, Zhongzheng S. Rd., Guiren Dist.",
+          "zip" : "71150",
+          "city" : "Tainan City",
+          "country" : {
+            "key" : "Country.TW",
+            "en_GB" : "Taiwan, Province Of China",
+            "tr_TR" : "Tayvan, Çin Eyaleti",
+            "zh_CN" : "中国台湾省"
+          }
+        },
+        "monitoredPartyLegalName" : "Eminent Luggage Corporation",
+        "managedByBusinessPartnerAmforiId" : "158-000166-000",
+        "siteAmforiId" : "158-000166-002",
+        "externalReference" : "BSCI_dbid_385787"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744329600000,
+      "beingReplanned" : false,
+      "uuid" : "9bb5ab33-2796-46f4-9f30-1b6a86589bfd",
+      "timeWindowFrom" : 1741910400000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "24-0241374-1",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FOLLOW_UP_MONITORING",
+        "en_GB" : "Follow-up Monitoring",
+        "tr_TR" : "Takip Denetimi",
+        "zh_CN" : "跟进监测"
+      },
+      "requestorLegalName" : "GALERIA S.à r.l. & Co. KG",
+      "requestDate" : 1738750278197,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1739517986327
+      },
+      "esLastIndexedTimestamp" : 1743201468709
+    }, {
+      "monitoredSite" : {
+        "name" : "WENZHOU FUWO LUGGAGE CO., LTD.",
+        "localName" : "温州富我箱包有限公司",
+        "address" : {
+          "street" : "Standard Factory Building No. 2, No. 289 Huashun Road, Feiyun Henghe Industrial Zone, Rui'an City\n",
+          "city" : "Wenzhou",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "WENZHOU FUWO LUGGAGE CO., LTD.",
+        "managedByBusinessPartnerAmforiId" : "156-053548-000",
+        "siteAmforiId" : "156-053548-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744329600000,
+      "beingReplanned" : false,
+      "uuid" : "232470ec-b455-4573-bb74-47b3f9fd8824",
+      "timeWindowFrom" : 1741910400000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "24-0246550-1",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FOLLOW_UP_MONITORING",
+        "en_GB" : "Follow-up Monitoring",
+        "tr_TR" : "Takip Denetimi",
+        "zh_CN" : "跟进监测"
+      },
+      "requestorLegalName" : "Amazon.com, Inc.",
+      "requestDate" : 1740738009953,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741680295264
+      },
+      "esLastIndexedTimestamp" : 1743201528074
+    }, {
+      "monitoredSite" : {
+        "name" : "ZHANGZHOU LONGRICH FURNITURE CO.,LTD.",
+        "localName" : "漳州市芗城区长鑫家具有限公司",
+        "address" : {
+          "street" : "No. 740, Zhanghua Road, Xiangcheng District",
+          "city" : "Zhangzhou",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "ZHANGZHOU LONGRICH FURNITURE CO.,LTD.",
+        "managedByBusinessPartnerAmforiId" : "156-018689-000",
+        "siteAmforiId" : "156-018689-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744416000000,
+      "beingReplanned" : false,
+      "uuid" : "e396c8ec-af81-486c-ab19-c2ede57a08fd",
+      "timeWindowFrom" : 1741996800000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0312985",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "Amazon.com, Inc.",
+      "requestDate" : 1740553903725,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1742021549868
+      },
+      "esLastIndexedTimestamp" : 1743201521215
+    }, {
+      "monitoredSite" : {
+        "name" : "Site 1",
+        "address" : {
+          "street" : "boulevard sfax ",
+          "zip" : "20601",
+          "city" : "casablanca",
+          "country" : {
+            "key" : "Country.MA",
+            "en_GB" : "Morocco",
+            "tr_TR" : "Fas",
+            "zh_CN" : "摩洛哥"
+          }
+        },
+        "monitoredPartyLegalName" : "pretty shoes",
+        "managedByBusinessPartnerAmforiId" : "504-000183-000",
+        "siteAmforiId" : "504-000183-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744416000000,
+      "beingReplanned" : false,
+      "uuid" : "67bcac67-3ae1-4e19-bfc6-d8e6afdec9b3",
+      "timeWindowFrom" : 1741996800000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0307574",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "PIKOLINOS INTERCONTINENTAL, S.A",
+      "requestDate" : 1737718477736,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1742137203764
+      },
+      "esLastIndexedTimestamp" : 1743201460398
+    }, {
+      "monitoredSite" : {
+        "name" : "NingBo Kaidy Arts&Crafts Co.,Ltd.",
+        "address" : {
+          "street" : "NO.13，Zhengnan East Road ,XiWu Street，Fenghua District",
+          "zip" : "315500",
+          "city" : "ningbo",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "NingBo Kaidy Arts&Crafts Co.,Ltd.",
+        "managedByBusinessPartnerAmforiId" : "156-053678-000",
+        "siteAmforiId" : "156-053678-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744502400000,
+      "beingReplanned" : false,
+      "uuid" : "1c6367cd-5831-4ace-aaad-94fca5d9b21d",
+      "timeWindowFrom" : 1742083200000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "24-0247783-1",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FOLLOW_UP_MONITORING",
+        "en_GB" : "Follow-up Monitoring",
+        "tr_TR" : "Takip Denetimi",
+        "zh_CN" : "跟进监测"
+      },
+      "requestorLegalName" : "Søstrene Grenes Import A/S",
+      "requestDate" : 1740636294067,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1742223603880
+      },
+      "esLastIndexedTimestamp" : 1743201523930
+    }, {
+      "monitoredSite" : {
+        "name" : "UE Furniture Co.,Ltd First Branch",
+        "address" : {
+          "street" : "No. 816, Yuedu East Road Dipu Town, Anji County",
+          "city" : "Huzhou",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "UE Furniture Co.,Ltd First Branch",
+        "managedByBusinessPartnerAmforiId" : "156-061177-000",
+        "siteAmforiId" : "156-061177-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744588800000,
+      "beingReplanned" : false,
+      "uuid" : "c6c3659c-347e-4df3-b7ea-6d4bfa66f0e4",
+      "timeWindowFrom" : 1742169600000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0312367",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "EKAI INDUSTRIAL LIMITED",
+      "requestDate" : 1740365235065,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1742310003918
+      },
+      "esLastIndexedTimestamp" : 1743201512794
+    }, {
+      "monitoredSite" : {
+        "name" : "GUANGDONG KYMENG PLASTIC INDUSTRIAL CO.,LIMITED",
+        "address" : {
+          "street" : "1-2/F,NO.1,Qiaodong Weichong,Xinlian Industrial Area,Lishui Town, Nanhai district",
+          "city" : "Foshan",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "GUANGDONG KYMENG PLASTIC INDUSTRIAL CO.,LIMITED",
+        "managedByBusinessPartnerAmforiId" : "156-061432-000",
+        "siteAmforiId" : "156-061432-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744588800000,
+      "beingReplanned" : false,
+      "uuid" : "afb3dbca-7f1c-4092-9fd5-ebce5c644ade",
+      "timeWindowFrom" : 1742169600000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0314048",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "J-Trade Handels AB",
+      "requestDate" : 1741005726678,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741241208376
+      },
+      "esLastIndexedTimestamp" : 1743201533595
+    }, {
+      "monitoredSite" : {
+        "name" : "Zhongshan Kailei Personal Care Supplies Co.,Ltd.",
+        "localName" : "中山市凯蕾护理用品有限公司",
+        "address" : {
+          "street" : "A Area,5th to 6th Floor,No.4 Factory Building,No.5 Simiao Road,South China Modern Traditional Chinese Medicine Yaocheng Industrial Park,Nanlang",
+          "city" : "Zhongshan",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Zhongshan Kailei Personal Care Supplies Co.,Ltd.",
+        "managedByBusinessPartnerAmforiId" : "156-034355-000",
+        "siteAmforiId" : "156-034355-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744588800000,
+      "beingReplanned" : false,
+      "uuid" : "446d4922-dc36-4893-be43-8020ba6d22b0",
+      "timeWindowFrom" : 1742169600000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0314051",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "Dayes Europe B.V.",
+      "requestDate" : 1741007073242,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741230354927
+      },
+      "esLastIndexedTimestamp" : 1743201533516
+    }, {
+      "monitoredSite" : {
+        "name" : "Berlee Furniture Co., Ltd",
+        "localName" : "江门市新会区宝利家具有限公司(91440700731450056P)",
+        "address" : {
+          "street" : "Yinlong Road West, Qibao, Xinhui District",
+          "zip" : "529156",
+          "city" : "Jiangmen",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Berlee furniture co., Ltd",
+        "managedByBusinessPartnerAmforiId" : "156-007688-000",
+        "siteAmforiId" : "156-007688-002",
+        "externalReference" : "BSCI_dbid_11005"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744588800000,
+      "beingReplanned" : false,
+      "uuid" : "3e4e28e4-c98e-4a20-b5c7-6506b350f840",
+      "timeWindowFrom" : 1742169600000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "24-0243915-1",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FOLLOW_UP_MONITORING",
+        "en_GB" : "Follow-up Monitoring",
+        "tr_TR" : "Takip Denetimi",
+        "zh_CN" : "跟进监测"
+      },
+      "requestorLegalName" : "Lidl & Kaufland Asia Pte. Limited",
+      "requestDate" : 1740643528625,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741319704041
+      },
+      "esLastIndexedTimestamp" : 1743201525309
+    }, {
+      "monitoredSite" : {
+        "name" : "Foshan City Shunde Troson Plastic Manufacturing CO.,LTD",
+        "localName" : "佛山市顺德区卓盛塑料制品有限公司",
+        "address" : {
+          "street" : "Yuebu industrial  first area NO.8, Lecong Town, Shunde Area",
+          "zip" : "528300",
+          "city" : "Foshan",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Foshan City Shunde Troson Plastic Manufacturing CO.,LTD",
+        "managedByBusinessPartnerAmforiId" : "156-013564-000",
+        "siteAmforiId" : "156-013564-002",
+        "externalReference" : "BSCI_dbid_337096"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744588800000,
+      "beingReplanned" : false,
+      "uuid" : "c615e54c-b53e-4521-99ab-251fbaf4065c",
+      "timeWindowFrom" : 1742169600000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0314029",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "Wenko-Wenselaar GmbH & Co. KG",
+      "requestDate" : 1741000909487,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1742310006960
+      },
+      "esLastIndexedTimestamp" : 1743201533487
+    }, {
+      "monitoredSite" : {
+        "name" : "Hangzhou Hansan Home Furniture Co. Ltd",
+        "localName" : "杭州恒尚逸品家居有限公司(91330110593086515W)",
+        "address" : {
+          "street" : "5-3 Baiye Road, Xikou Village, Baizhang Town, Yuhang District",
+          "city" : "Hangzhou",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Hangzhou Hansan Home Furniture Co.,Ltd",
+        "managedByBusinessPartnerAmforiId" : "156-005255-000",
+        "siteAmforiId" : "156-005255-002",
+        "externalReference" : "BSCI_dbid_342426"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744588800000,
+      "beingReplanned" : false,
+      "uuid" : "7d7da890-94b7-4cc6-8772-6a791a99a1b3",
+      "timeWindowFrom" : 1742169600000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "24-0245162-1",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FOLLOW_UP_MONITORING",
+        "en_GB" : "Follow-up Monitoring",
+        "tr_TR" : "Takip Denetimi",
+        "zh_CN" : "跟进监测"
+      },
+      "requestorLegalName" : "Matriz Ideas S.A.",
+      "requestDate" : 1740967741154,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741685015028
+      },
+      "esLastIndexedTimestamp" : 1743201530686
+    }, {
+      "monitoredSite" : {
+        "name" : "Hengyang Huidi Intelligent Technology Co., Ltd",
+        "address" : {
+          "street" : "ST121-1-B Industrial Park, Santang Town, Hengnan County, Hengyang City, Hunan Province (within the Aidi Intelligent Technology Center)",
+          "city" : "Hengyang",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Hengyang Huidi Intelligent Technology Co., Ltd",
+        "managedByBusinessPartnerAmforiId" : "156-053352-000",
+        "siteAmforiId" : "156-053352-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744588800000,
+      "beingReplanned" : false,
+      "uuid" : "921308e2-5991-4b68-beb3-62dce35048cb",
+      "timeWindowFrom" : 1742169600000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "24-0245108-1",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FOLLOW_UP_MONITORING",
+        "en_GB" : "Follow-up Monitoring",
+        "tr_TR" : "Takip Denetimi",
+        "zh_CN" : "跟进监测"
+      },
+      "requestorLegalName" : "VALUEMATE",
+      "requestDate" : 1740041020422,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741402935136
+      },
+      "esLastIndexedTimestamp" : 1743201506117
+    }, {
+      "monitoredSite" : {
+        "name" : "Hainan Lianwei Furniture Co., Ltd.",
+        "localName" : "海南联威家具有限公司",
+        "address" : {
+          "street" : "No.101, Office Area 1, Qionghai Yinhai Sponge Furniture Co., Ltd., at the intersection of the village of Bu'an, Yongfa Town, Chengmai County, Hainan Province",
+          "city" : "Chengmai ",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Hainan Lianwei Furniture Co., Ltd.",
+        "managedByBusinessPartnerAmforiId" : "156-061318-000",
+        "siteAmforiId" : "156-061318-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744588800000,
+      "beingReplanned" : false,
+      "uuid" : "2ea947f8-1716-4101-b123-f26be057d841",
+      "timeWindowFrom" : 1742169600000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0313932",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "Amazon.com, Inc.",
+      "requestDate" : 1740989994716,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741076960920
+      },
+      "esLastIndexedTimestamp" : 1743201532248
+    }, {
+      "monitoredSite" : {
+        "name" : "NINGBO LIANRAN KITCHENWARE CO.LTD",
+        "localName" : "宁波联然厨具有限公司",
+        "address" : {
+          "street" : "No.5,Yunhuan Road, Simen Industrial Park, Yuyao, Ningbo City, China ",
+          "city" : "Ningbo",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "NINGBO LIANRAN KITCHENWARE CO.LTD",
+        "managedByBusinessPartnerAmforiId" : "156-046114-000",
+        "siteAmforiId" : "156-046114-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744675200000,
+      "beingReplanned" : false,
+      "uuid" : "5724f947-8fa8-4895-b612-dd480c241ed2",
+      "timeWindowFrom" : 1742256000000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0314191",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "MWH GmbH",
+      "requestDate" : 1741071977897,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741673119103
+      },
+      "esLastIndexedTimestamp" : 1743201534901
+    }, {
+      "monitoredSite" : {
+        "name" : "Zhuhai Ding Rong Plastic Products Co., Ltd.",
+        "localName" : "珠海市鼎荣塑胶制品有限公司",
+        "address" : {
+          "street" : "4F&5F, Building 3 and 1F, Building 4,Daxian Industrial Park, South Mt. Xiaolin, Hongqi Town,Jinwan District",
+          "city" : "Zhuhai",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Zhuhai Ding Rong Plastic Products Co., Ltd.",
+        "managedByBusinessPartnerAmforiId" : "156-029473-000",
+        "siteAmforiId" : "156-029473-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744675200000,
+      "beingReplanned" : false,
+      "uuid" : "5aabca9e-515c-4cc1-879f-75f2d9240bca",
+      "timeWindowFrom" : 1742256000000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "24-0247342-1",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FOLLOW_UP_MONITORING",
+        "en_GB" : "Follow-up Monitoring",
+        "tr_TR" : "Takip Denetimi",
+        "zh_CN" : "跟进监测"
+      },
+      "requestorLegalName" : "Amazon.com, Inc.",
+      "requestDate" : 1741082651025,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1742281503406
+      },
+      "esLastIndexedTimestamp" : 1743201536323
+    }, {
+      "monitoredSite" : {
+        "name" : "Rugao Jixin Garment Factory",
+        "localName" : "如皋市继馨服装厂",
+        "address" : {
+          "street" : "Group 3, Chenzhuang Village, Jiangan Town",
+          "city" : "Rugao",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Rugao Jixin Garment Factory",
+        "managedByBusinessPartnerAmforiId" : "156-010258-000",
+        "siteAmforiId" : "156-010258-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744675200000,
+      "beingReplanned" : false,
+      "uuid" : "3220921b-eec8-40c6-b580-ae2b78c62384",
+      "timeWindowFrom" : 1742256000000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0314215",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "ETAM GROUP",
+      "requestDate" : 1741074935295,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1741670260395
+      },
+      "esLastIndexedTimestamp" : 1743201536183
+    }, {
+      "monitoredSite" : {
+        "name" : "Ningbo Vasion Electric Appliance Co., Ltd",
+        "localName" : "宁波维盛电器有限公司",
+        "address" : {
+          "street" : "No.3, Sitangjiang Road, Gaoqiao Village, Xinpu Town",
+          "zip" : "315322",
+          "city" : "Cixi",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "Ningbo Vasion Electric Appliance Co., Ltd",
+        "managedByBusinessPartnerAmforiId" : "156-032996-000",
+        "siteAmforiId" : "156-032996-001"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744675200000,
+      "beingReplanned" : false,
+      "uuid" : "3056d53a-0b6a-4e9d-bb26-bbb85cdce37b",
+      "timeWindowFrom" : 1742256000000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "25-0314247",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FULL_MONITORING",
+        "en_GB" : "Full Monitoring",
+        "tr_TR" : "Tam Denetim",
+        "zh_CN" : "全面监测活动"
+      },
+      "requestorLegalName" : "VALUEMATE",
+      "requestDate" : 1741077522969,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1742396405993
+      },
+      "esLastIndexedTimestamp" : 1743201536267
+    }, {
+      "monitoredSite" : {
+        "name" : "Huizhou Jia Mei Garment Ltd",
+        "localName" : "惠州佳美制衣有限公司(91441322065174984F)",
+        "address" : {
+          "street" : "Shing Fun Industrial Park, Julong Village, Yuanzhou Town, Boluo County",
+          "zip" : "516100",
+          "city" : "Huizhou",
+          "country" : {
+            "key" : "Country.CN",
+            "en_GB" : "China",
+            "tr_TR" : "Çin",
+            "zh_CN" : "中国"
+          }
+        },
+        "monitoredPartyLegalName" : "HUIZHOU JIA MEI GARMENT LTD",
+        "managedByBusinessPartnerAmforiId" : "156-001988-000",
+        "siteAmforiId" : "156-001988-002",
+        "externalReference" : "BSCI_dbid_19263"
+      },
+      "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+      "monitoringPartnerAmforiId" : "756-000001-000",
+      "timeWindowTo" : 1744675200000,
+      "beingReplanned" : false,
+      "uuid" : "a04e7e7d-3ab3-4bf7-8e78-0c473036a4ca",
+      "timeWindowFrom" : 1742256000000,
+      "monitoringInitiative" : {
+        "key" : "MonitoringInitiative.BSCI",
+        "en_GB" : "BSCI",
+        "tr_TR" : "BSCI",
+        "zh_CN" : "BSCI"
+      },
+      "monitoringId" : "24-0248022-1",
+      "replanned" : false,
+      "monitoringType" : {
+        "key" : "MonitoringType.FOLLOW_UP_MONITORING",
+        "en_GB" : "Follow-up Monitoring",
+        "tr_TR" : "Takip Denetimi",
+        "zh_CN" : "跟进监测"
+      },
+      "requestorLegalName" : "GMS Global Management Services Ltd",
+      "requestDate" : 1741066287224,
+      "announcementType" : {
+        "key" : "AnnouncementType.SEMI_ANNOUNCED",
+        "en_GB" : "Semi Announced",
+        "tr_TR" : "Yarı Haberli",
+        "zh_CN" : "半通知"
+      },
+      "currentState" : {
+        "state" : {
+          "key" : "monitoring.monitoring.partner.planning.state.to.plan",
+          "en_GB" : "To Plan",
+          "tr_TR" : "Planlamak için",
+          "zh_CN" : "待计划"
+        },
+        "stateDate" : 1742396406063
+      },
+      "esLastIndexedTimestamp" : 1743201534934
+    } ],
+    "start" : 0,
+    "totalItems" : 945
+  }

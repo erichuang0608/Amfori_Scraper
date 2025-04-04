@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amfori Data Query</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .nav-tabs .nav-link {
+            color: #495057;
+        }
+        .nav-tabs .nav-link.active {
+            color: #0d6efd;
+            font-weight: bold;
+        }
+        .table-responsive {
+            margin-top: 20px;
+        }
+        .pagination {
+            margin-top: 20px;
+        }
+        .search-form {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Amfori Data Query</h2>
+        
+        <!-- Navigation -->
+        <nav class="nav mb-4">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link active" href="/query">Query</a>
+        </nav>
+
+        <!-- Search Form -->
+        <div class="search-form">
+            <form method="GET" class="row g-3" id="searchForm">
+                <div class="col-auto">
+                    <input type="text" class="form-control" name="site_id" placeholder="Site amfori ID" value="{{ request.args.get('site_id', '') }}">
+                </div>
+                <div class="col-auto">
+                    <input type="number" class="form-control" name="per_page" placeholder="Records per page" value="{{ request.args.get('per_page', '25') }}">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn btn-success" onclick="exportData()">Export to Excel</button>
+                </div>
+                <input type="hidden" name="tab" value="{{ active_tab }}">
+            </form>
+        </div>
+
+        <!-- Tabs -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link {% if active_tab == 'sites' %}active{% endif %}" 
+                   href="?tab=sites&site_id={{ request.args.get('site_id', '') }}&per_page={{ request.args.get('per_page', '25') }}" 
+                   role="tab">Sites</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link {% if active_tab == 'site_details' %}active{% endif %}" 
+                   href="?tab=site_details&site_id={{ request.args.get('site_id', '') }}&per_page={{ request.args.get('per_page', '25') }}" 
+                   role="tab">Site Details</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link {% if active_tab == 'backup' %}active{% endif %}" 
+                   href="?tab=backup&site_id={{ request.args.get('site_id', '') }}&per_page={{ request.args.get('per_page', '25') }}" 
+                   role="tab">Backup Data</a>
+            </li>
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="myTabContent">
+            <!-- Sites Tab -->
+            <div class="tab-pane fade {% if active_tab == 'sites' %}show active{% endif %}" id="sites" role="tabpanel">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Site amfori ID</th>
+                                <th>Site Name</th>
+                                <th>Local Name</th>
+                                <th>Address Street</th>
+                                <th>Address City</th>
+                                <th>Address Zip</th>
+                                <th>Address Country</th>
+                                <th>Address1</th>
+                                <th>Legal Name</th>
+                                <th>Initiative</th>
+                                <th>Status</th>
+                                <th>Monitoring ID</th>
+                                <th>Monitoring Type</th>
+                                <th>Announcement Type</th>
+                                <th>Requestor</th>
+                                <th>Request Date</th>
+                                <th>State Date</th>
+                                <th>To Plan Link</th>
+                                <th>To Confirm Link</th>
+                                <th>Created At</th>
+                                <th>Updated At</th>
+                                <th>Scraped At</th>
+                                <th>Status Comparation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if sites_data %}
+                                {% for record in sites_data %}
+                                <tr>
+                                    <td>{{ record.id }}</td>
+                                    <td>{{ record.site_amfori_id }}</td>
+                                    <td>{{ record.site_name }}</td>
+                                    <td>{{ record.local_name }}</td>
+                                    <td>{{ record.address_street }}</td>
+                                    <td>{{ record.address_city }}</td>
+                                    <td>{{ record.address_zip }}</td>
+                                    <td>{{ record.address_country }}</td>
+                                    <td>{{ record.address1 }}</td>
+                                    <td>{{ record.legal_name }}</td>
+                                    <td>{{ record.initiative }}</td>
+                                    <td>{{ record.status }}</td>
+                                    <td>{{ record.monitoring_id }}</td>
+                                    <td>{{ record.monitoring_type }}</td>
+                                    <td>{{ record.announcement_type }}</td>
+                                    <td>{{ record.requestor }}</td>
+                                    <td>{{ record.request_date }}</td>
+                                    <td>{{ record.state_date }}</td>
+                                    <td>
+                                        <a href="{{ record.to_plan_link }}" target="_blank">
+                                            {{ record.to_plan_link }}
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="{{ record.to_confirm_link }}" target="_blank">
+                                            {{ record.to_confirm_link }}
+                                        </a>
+                                    </td>
+                                    <td>{{ record.created_at }}</td>
+                                    <td>{{ record.updated_at }}</td>
+                                    <td>{{ record.scraped_at }}</td>
+                                    <td>{{ record.status_comparation }}</td>
+                                </tr>
+                                {% endfor %}
+                            {% else %}
+                                <tr>
+                                    <td colspan="24" class="text-center">No data available</td>
+                                </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Site Details Tab -->
+            <div class="tab-pane fade {% if active_tab == 'site_details' %}show active{% endif %}" id="site-details" role="tabpanel">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Scraped At</th>
+                                <th>Status</th>
+                                <th>Request Date</th>
+                                <th>Site amfori ID</th>
+                                <th>Monitoring ID</th>
+                                <th>Company Name</th>
+                                <th>Site Name</th>
+                                <th>Local Name</th>
+                                <th>Contact Email</th>
+                                <th>Contact Phone</th>
+                                <th>Address</th>
+                                <th>Audit Start Window</th>
+                                <th>Audit To Window</th>
+                                <th>Status1</th>
+                                <th>Audit Start Date</th>
+                                <th>Audit End Date</th>
+                                <th>Unavailability Days</th>
+                                <th>Schedule Number</th>
+                                <th>Job Number</th>
+                                <th>BSCI Member</th>
+                                <th>BSCI Member Phone</th>
+                                <th>BSCI Member Email</th>
+                                <th>Audit Announcement</th>
+                                <th>Audit Methodology</th>
+                                <th>Audit Type</th>
+                                <th>CS</th>
+                                <th>Remark</th>
+                                <th>Related Sales</th>
+                                <th>Created At</th>
+                                <th>Updated At</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if site_details_data %}
+                                {% for record in site_details_data %}
+                                <tr>
+                                    <td>{{ record.id }}</td>
+                                    <td>{{ record.scraped_at }}</td>
+                                    <td>{{ record.status }}</td>
+                                    <td>{{ record.request_date }}</td>
+                                    <td>{{ record.site_amfori_id }}</td>
+                                    <td>{{ record.monitoring_id }}</td>
+                                    <td>{{ record.company_name_legalname }}</td>
+                                    <td>{{ record.site_name_sitename }}</td>
+                                    <td>{{ record.local_name_localname }}</td>
+                                    <td>{{ record.contact_email }}</td>
+                                    <td>{{ record.contact_phonenumber }}</td>
+                                    <td>{{ record.address }}</td>
+                                    <td>{{ record.audit_start_window_from }}</td>
+                                    <td>{{ record.audit_to_window_to }}</td>
+                                    <td>{{ record.status1 }}</td>
+                                    <td>{{ record.audit_start_date }}</td>
+                                    <td>{{ record.audit_end_date }}</td>
+                                    <td>{{ record.unavailability_days }}</td>
+                                    <td>{{ record.schedule_number }}</td>
+                                    <td>{{ record.job_number }}</td>
+                                    <td>{{ record.bsci_member }}</td>
+                                    <td>{{ record.bsci_member_phonenumber }}</td>
+                                    <td>{{ record.bsci_member_emailaddress }}</td>
+                                    <td>{{ record.audit_announcement }}</td>
+                                    <td>{{ record.audit_methodology }}</td>
+                                    <td>{{ record.audit_type }}</td>
+                                    <td>{{ record.cs }}</td>
+                                    <td>{{ record.remark }}</td>
+                                    <td>{{ record.related_sales }}</td>
+                                    <td>{{ record.created_at }}</td>
+                                    <td>{{ record.updated_at }}</td>
+                                </tr>
+                                {% endfor %}
+                            {% else %}
+                                <tr>
+                                    <td colspan="31" class="text-center">No data available</td>
+                                </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Backup Data Tab -->
+            <div class="tab-pane fade {% if active_tab == 'backup' %}show active{% endif %}" id="backup" role="tabpanel">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Backup ID</th>
+                                <th>Site Detail ID</th>
+                                <th>Scraped At</th>
+                                <th>Status</th>
+                                <th>Request Date</th>
+                                <th>Site amfori ID</th>
+                                <th>Monitoring ID</th>
+                                <th>Company Name</th>
+                                <th>Site Name</th>
+                                <th>Local Name</th>
+                                <th>Contact Email</th>
+                                <th>Contact Phone</th>
+                                <th>Address</th>
+                                <th>Audit Start Window</th>
+                                <th>Audit To Window</th>
+                                <th>Status1</th>
+                                <th>Audit Start Date</th>
+                                <th>Audit End Date</th>
+                                <th>Unavailability Days</th>
+                                <th>Schedule Number</th>
+                                <th>Job Number</th>
+                                <th>BSCI Member</th>
+                                <th>BSCI Member Phone</th>
+                                <th>BSCI Member Email</th>
+                                <th>Audit Announcement</th>
+                                <th>Audit Methodology</th>
+                                <th>Audit Type</th>
+                                <th>CS</th>
+                                <th>Remark</th>
+                                <th>Related Sales</th>
+                                <th>Created At</th>
+                                <th>Updated At</th>
+                                <th>Backup Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if backup_data %}
+                                {% for record in backup_data %}
+                                <tr>
+                                    <td>{{ record.backup_id }}</td>
+                                    <td>{{ record.site_detail_id }}</td>
+                                    <td>{{ record.scraped_at }}</td>
+                                    <td>{{ record.status }}</td>
+                                    <td>{{ record.request_date }}</td>
+                                    <td>{{ record.site_amfori_id }}</td>
+                                    <td>{{ record.monitoring_id }}</td>
+                                    <td>{{ record.company_name_legalname }}</td>
+                                    <td>{{ record.site_name_sitename }}</td>
+                                    <td>{{ record.local_name_localname }}</td>
+                                    <td>{{ record.contact_email }}</td>
+                                    <td>{{ record.contact_phonenumber }}</td>
+                                    <td>{{ record.address }}</td>
+                                    <td>{{ record.audit_start_window_from }}</td>
+                                    <td>{{ record.audit_to_window_to }}</td>
+                                    <td>{{ record.status1 }}</td>
+                                    <td>{{ record.audit_start_date }}</td>
+                                    <td>{{ record.audit_end_date }}</td>
+                                    <td>{{ record.unavailability_days }}</td>
+                                    <td>{{ record.schedule_number }}</td>
+                                    <td>{{ record.job_number }}</td>
+                                    <td>{{ record.bsci_member }}</td>
+                                    <td>{{ record.bsci_member_phonenumber }}</td>
+                                    <td>{{ record.bsci_member_emailaddress }}</td>
+                                    <td>{{ record.audit_announcement }}</td>
+                                    <td>{{ record.audit_methodology }}</td>
+                                    <td>{{ record.audit_type }}</td>
+                                    <td>{{ record.cs }}</td>
+                                    <td>{{ record.remark }}</td>
+                                    <td>{{ record.related_sales }}</td>
+                                    <td>{{ record.created_at }}</td>
+                                    <td>{{ record.updated_at }}</td>
+                                    <td>{{ record.backup_time }}</td>
+                                </tr>
+                                {% endfor %}
+                            {% else %}
+                                <tr>
+                                    <td colspan="33" class="text-center">No data available</td>
+                                </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <nav aria-label="Page navigation" class="mt-4">
+            <ul class="pagination justify-content-center">
+                {% for page in range(1, total_pages + 1) %}
+                <li class="page-item {% if page == current_page %}active{% endif %}">
+                    <a class="page-link" href="?page={{ page }}&site_id={{ request.args.get('site_id', '') }}&per_page={{ request.args.get('per_page', '25') }}&tab={{ active_tab }}">{{ page }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function exportData() {
+            const siteId = document.querySelector('input[name="site_id"]').value;
+            const currentTab = '{{ active_tab }}';
+            const exportUrl = `/export?tab=${currentTab}&site_id=${siteId}`;
+            window.location.href = exportUrl;
+        }
+    </script>
+</body>
+</html> 

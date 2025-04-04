@@ -1,0 +1,167 @@
+{
+  "uuid" : "57a05cff-9cfc-4273-91a8-5198c6c6810a",
+  "monitoringPartnerUuid" : "f13230fe-ae94-4afb-9d70-9f089c9cc05f",
+  "version" : 2,
+  "initiative" : "MonitoringInitiative.BSCI",
+  "monitoringActivityName" : "amfori Social Audit - Manufacturing",
+  "announcementType" : "AnnouncementType.SEMI_ANNOUNCED",
+  "requestDate" : "2025-03-28",
+  "requestedTimeWindow" : {
+    "from" : "2025-04-11",
+    "fromDayPart" : "DayPart.MORNING",
+    "to" : "2025-05-11",
+    "toDayPart" : "DayPart.AFTERNOON"
+  },
+  "confirmedTimeWindow" : {
+    "from" : "2025-04-11",
+    "fromDayPart" : "DayPart.MORNING",
+    "to" : "2025-05-09",
+    "toDayPart" : "DayPart.AFTERNOON"
+  },
+  "unavailabilityDays" : [ ],
+  "planningFailed" : false,
+  "planned" : false,
+  "toPlan" : false,
+  "beingReplanned" : false,
+  "replanned" : false,
+  "toConfirm" : false,
+  "waitingForUnavailabilityDays" : true,
+  "currentState" : {
+    "name" : "monitoring.monitoring.partner.planning.state.waiting.for.unavailability.days"
+  },
+  "monitoredSite" : {
+    "siteAmforiId" : "156-035945-002",
+    "name" : "Mao Fa Toys And Gift Corporation Ltd",
+    "address" : {
+      "street" : "No.1571 Yucheng Village, Zhangban Town, Taiwanese Investment District",
+      "zip" : "362100",
+      "city" : "Quanzhou",
+      "stateProvince" : {
+        "code" : "CN-FJ",
+        "name" : "StateProvince.CN-FJ"
+      },
+      "country" : "Country.CN"
+    },
+    "localName" : "泉州市茂发玩具礼品有限公司(913505217531209207)",
+    "workforce" : {
+      "numberOfWorkers" : "1-50"
+    },
+    "monitoredPartyLegalName" : "Quanzhou Junyang trade IMP. & EXP. CO LTD.",
+    "monitoredPartyCompanyIdentifiers" : [ ],
+    "gicsSubIndustry" : "GICSSubIndustry.TRADING_COMPANIES_AND_DISTRIBUTORS",
+    "gs1ProductClasses" : [ ],
+    "amforiProcessClassifications" : [ ],
+    "contactDetails" : {
+      "emailAddress" : "438975228@qq.com",
+      "phoneNumber" : "+8659522505987",
+      "faxNumber" : "+8659587580671"
+    },
+    "managedByBusinessPartnerAmforiId" : "156-035945-000",
+    "verified" : true,
+    "siteType" : "OWN_SITE",
+    "siteState" : {
+      "state" : "SiteStateType.ACTIVE"
+    }
+  },
+  "nextTierMonitoredSites" : [ ],
+  "monitoringId" : "24-0250779-1",
+  "teamEngagedMonitoringPersonNames" : [ ],
+  "monitoringType" : "MonitoringType.FOLLOW_UP_MONITORING",
+  "isFollowUpMonitoringForMonitoringId" : "24-0250779",
+  "monitoringActivityScope" : "MonitoringActivityScope.ONE_SITE",
+  "requestor" : {
+    "uuid" : "f9a6f0ad-b111-497a-a1ac-096ae3fd6be2",
+    "legalName" : "El Corte Inglés,S.A",
+    "address" : {
+      "street" : "112 Hermosilla",
+      "zip" : "28009",
+      "city" : "Madrid",
+      "stateProvince" : {
+        "code" : "ES-MD",
+        "name" : "StateProvince.ES-MD"
+      },
+      "country" : "Country.ES"
+    },
+    "contactDetails" : {
+      "phoneNumber" : "+34914018500",
+      "website" : "http://www.elcorteingles.es"
+    }
+  },
+  "monitoringScopes" : [ {
+    "siteAmforiId" : "156-035945-002",
+    "sectionsInScope" : [ {
+      "sectionName" : "Monitoring Details",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "Data Validation",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "Social Performance Management",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "Production and Employment Structure",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "Remuneration and Working Hours",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "Housing Information",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "Grievance Mechanism",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "Sampled Workers",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "Young Worker Data",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "Interview Evidence",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "PA1: Social Management System",
+      "forFollowUp" : true
+    }, {
+      "sectionName" : "PA 2: Workers Involvement and Protection",
+      "forFollowUp" : true
+    }, {
+      "sectionName" : "PA 3: The Rights of Freedom of Association and Collective Bargaining",
+      "forFollowUp" : true
+    }, {
+      "sectionName" : "PA 4: No Discrimination, Violence or Harassment",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "PA 5: Fair Remuneration",
+      "forFollowUp" : true
+    }, {
+      "sectionName" : "PA 6: Decent Working Hours",
+      "forFollowUp" : true
+    }, {
+      "sectionName" : "PA 7: Occupational Health and Safety",
+      "forFollowUp" : true
+    }, {
+      "sectionName" : "PA 8: No Child Labour",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "PA 9: Special Protection for Young Workers",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "PA 10: No Precarious Employment",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "PA 11: No Bonded, Forced Labour or Human Trafficking",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "PA 12: Protection of the Environment",
+      "forFollowUp" : false
+    }, {
+      "sectionName" : "PA 13: Ethical Business Behaviour",
+      "forFollowUp" : false
+    } ]
+  } ],
+  "monitoringActivityFocusedScope" : false,
+  "canBeReplanned" : false,
+  "teamMonitoringPersonUuids" : [ ],
+  "canRequestChangeToFullyAnnouncedMonitoring" : false
+}
